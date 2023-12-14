@@ -1,0 +1,59 @@
+{% extends 'base.html'%}
+
+{% block title %}
+About
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<h1 class="text-center">About Us</h1>
+<hr>
+
+{% comment %} <div class="container bg-warning">
+    
+    <div class="text-center">
+        <img src="{% static '/images/wall5.jpg'%}" class="rounded" alt="...">
+      </div>
+      <br>
+        <p>Information Technology (IT) is a business sector that deals with computing, including hardware, software, telecommunications and generally anything involved in the transmittal of information or the systems that faciliate communication.IT involves many things. Take, for instance, an IT department in a company. There are many people with many jobs and varied responsibilities. These responsibilities range from keeping systems and data secure to keeping networks up and running. There are people who input data, people who manage databases and people who do programming. There are also the decision makers, such as Chief Information Officers (CIOs), who decide how an IT department will operate and what components will be purchased.
+
+            IT also includes the management of data, whether it is in the form of text, voice, image, audio or some other form. It can also involve things related to the Internet. This gives IT a whole new meaning, since the Internet is its own realm. IT involves the transfer of data, so it makes sense that the Internet would be a part of IT. IT has become a part of our everyday lives and continues to proliferate into new realms.
+
+        </p>
+        <br>
+        <p>IT companies are responsible for making sure that operations are running the way they should. They ensure that devices are working properly and that data is secure. IT is also responsible for installing new software, hardware and providing technical support.Simply put, an IT company supervises the use of sending, storing, and retrieving information. Computers, storage, networking, and other tangible tools, systems, and processes are some of the examples that IT companies use to store or utilize information.
+
+            In a broader concept, the term IT describes the production, processing, storage, protection, and exchange of all forms of electronic information.</p>
+        
+    </div> {% endcomment %}
+    <div class="card-group">
+        <div class="card">
+          <img src="{% static 'images/wall1.jpg'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Information Technology (IT) is a business sector that deals with computing, including hardware, software, telecommunications and generally anything involved in the transmittal of information or the systems that faciliate communication.IT involves many things. Take, for instance, an IT department in a company. There are many people with many jobs and varied responsibilities. These responsibilities range from keeping systems and data secure to keeping networks up and running. There are people who input data, people who manage databases and people who do programming. There are also the decision makers, such as Chief Information Officers (CIOs), who decide how an IT department will operate and what components will be purchased.
+
+                IT also includes the management of data, whether it is in the form of text, voice, image, audio or some other form. It can also involve things related to the Internet. This gives IT a whole new meaning, since the Internet is its own realm. IT involves the transfer of data, so it makes sense that the Internet would be a part of IT. IT has become a part of our everyday lives and continues to proliferate into new realms.</p>
+            
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+              <img src="{% static 'images/ab1.jpg'%}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">In a broader concept, the term IT describes the production, processing, storage, protection, and exchange of all forms of electronic information..</p>
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="{% static 'images/wall6.jpg'%}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">IT involves many things. Take, for instance, an IT department in a company. There are many people with many jobs and varied responsibilities. These responsibilities range from keeping systems and data secure to keeping networks up and running.</p>
+                
+              </div>
+            </div>
+        
+          </div>   
+        
+   
+</div>
+{% endblock %}

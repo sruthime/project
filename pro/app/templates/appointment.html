@@ -1,0 +1,22 @@
+
+{% extends 'base.html'%}
+
+{% block title %}
+Appointment
+{% endblock %}
+
+{% block content %}
+<h1 class="text-center">Make an Appointment </h1>
+<hr>
+
+
+       <div class=" container w-50 text-center my-5 border border-2">
+            <form action="" method="POST">
+                {% csrf_token %}
+                {{form.as_p}}
+                <button class="btn btn-primary"  type="sumbit">Submit</button>
+            </form>
+        </div>
+        
+    
+{% endblock %}

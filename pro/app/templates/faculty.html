@@ -1,0 +1,60 @@
+{% extends 'base.html'%}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<h1 class="text-center">Our Faculties </h1>
+<hr>
+
+
+<div class=' text-center '>
+    <div class="card mx-4 my-4  border border-dark border border-5" style="width: 18rem; display:inline-block">
+        <img src="{% static '/images/adm.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2>Abdul Rahman</h2>
+          <p class="card-text">Adminstration.</p>
+        </div>
+      </div>
+      <div class="card mx-4 my-4  border border-dark border border-5" style="width: 18rem;display:inline-block">
+        <img src="{% static '/images/hr.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2>Haritha V</h2>
+          <p class="card-text">Human Resource.</p>
+        </div>
+      </div>
+      <div class="card mx-4 my-4  border border-dark border border-5" style="width: 18rem;display:inline-block">
+        <img src="{% static '/images/fin.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2>Rahul Eashwar</h2>
+          <p class="card-text">Finance & Accounting.</p>
+        </div>
+      </div>
+      <div class="card mx-4 my-4 border border-dark border border-5" style="width: 18rem;display:inline-block">
+        <img src="{% static '/images/sales.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2>Nived Krishna</h2>
+          <p class="card-text">Marketting & Sales.</p>
+        </div>
+      </div>
+      <div class="card mx-4 my-4 border border-dark border border-5" style="width: 18rem;display:inline-block">
+        <img src="{% static '/images/it.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2>Natasha</h2>
+          <p class="card-text">Information Technology</p>
+        </div>
+      </div>
+      <div class="card mx-4 my-4 border border-dark border border-5" style="width: 18rem;display:inline-block">
+        <img src="{% static '/images/cus.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2>Rithika</h2>
+          <p class="card-text">Customer Service</p>
+        </div>
+      </div>
+ 
+
+
+</div>   
+</div>    
+{% endblock %}
